@@ -3,5 +3,5 @@ wget -O ./photogimp.zip "https://github.com/Diolinux/PhotoGIMP/releases/download
 unzip ./photogimp.zip
 mv "PhotoGIMP by Diolinux v2020 for Flatpak" ./photogimp
 rm -rf ~/.config/GIMP
-cp ./photogimp/.var/app/org.gimp.GIMP/GIMP ~/.config/ -r
-cp ./photogimp/.var/app/org.gimp.GIMP/gtk-2.0/gtkfilechooser.ini ~/.config/gtk-2.0/
+cp ./photogimp/.var/app/org.gimp.GIMP/config/GIMP ~/.config/ -r
+cp ./photogimp/.var/app/org.gimp.GIMP/config/gtk-2.0/gtkfilechooser.ini ~/.config/gtk-2.0/
