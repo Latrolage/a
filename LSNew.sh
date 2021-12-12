@@ -1,6 +1,5 @@
 sudo true
-curl -s https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \
-    | sudo pacman-key --add -
+curl -s https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc | sudo pacman-key --add -
 sudo pacman-key --finger 56C464BAAC421453
 sleep 3
 sudo pacman-key --lsign-key 56C464BAAC421453
