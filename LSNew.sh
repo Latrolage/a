@@ -12,4 +12,5 @@ sudo sed -i '/#MAKEFLAGS=/c\MAKEFLAGS="-j$(nproc)"' /etc/makepkg.conf
 
 echo Done
 echo reminder: GRUB_DEFAULT=(index starts with 0)
+echo "/boot/grub/grub.cfg"
 sleep 100
