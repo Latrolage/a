@@ -5,7 +5,7 @@ sleep 3
 sudo pacman-key --lsign-key 56C464BAAC421453
 sudo echo "[linux-surface]" >> /etc/pacman.conf
 sudo echo "Server = https://pkg.surfacelinux.com/arch/" >> /etc/pacman.conf
-yay -Syu linux-surface linux-surface-headers iptsd gwenview mpv kdenlive gimp firefox okular libreoffice-fresh --needed --noconfirm
+yay -Syu linux-surface linux-surface-headers iptsd gwenview power-profiles-daemon mpv kdenlive gimp firefox okular libreoffice-fresh --needed --noconfirm
 sudo systemctl enable iptsd
 yay -Rns kdeconnect --noconfirm
 sudo sed -i '/#MAKEFLAGS=/c\MAKEFLAGS="-j$(nproc)"' /etc/makepkg.conf
