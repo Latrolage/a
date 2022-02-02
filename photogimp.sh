@@ -1,6 +1,3 @@
-yay -Syu kdenlive gimp firefox okular libreoffice-fresh --needed
-
-
 killall gimp &
 wget -O ./photogimp.zip "https://github.com/Diolinux/PhotoGIMP/releases/download/1.0/PhotoGIMP.by.Diolinux.v2020.for.Flatpak.zip" -o ./photogimp.zip
 echo Unzipping...
